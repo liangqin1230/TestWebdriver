@@ -13,7 +13,7 @@ import org.openqa.selenium.WebElement;
 
     private  static WebDriver driver = null;
 
-    //通过不同类型查找元素
+    //通过不同类型查找元素element
         public static   WebElement findElement(String type, String value) {
             WebElement element = null;
             switch (type) {
